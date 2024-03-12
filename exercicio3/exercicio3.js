@@ -12,7 +12,7 @@ class Aluno {
 let Aluno1 = new Aluno("Ruan", 10, 9.5);
 let Aluno2 = new Aluno("Rosana", 8.5, 10);
 
-console.log(Aluno1)
-console.log(`${Aluno1.calcularMedia()}`)
-console.log(Aluno2)
-console.log(`${Aluno2.calcularMedia()}`)
+console.log(Aluno1);
+console.log(`${Aluno1.calcularMedia()}`);
+console.log(Aluno2);
+console.log(`${Aluno2.calcularMedia()}`);
