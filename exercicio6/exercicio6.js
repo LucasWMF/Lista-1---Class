@@ -2,14 +2,14 @@ class Empresa {
     constructor(nome, receitaAnual, despesasAnuais) {
         this.nome = nome;
         this.receitaAnual = receitaAnual;
-        this. despesasAnuais = despesasAnuais;
+        this.despesasAnuais = despesasAnuais;
     }
     calcularLucroAnual(){
         return(this.receitaAnual - this.despesasAnuais)
     }
 
     exibirRelatorio(){
-        return(console.log(`Relatório da Empresa:\nReceita Atual: ${this.receitaAnual}\nDespesas Anuais: ${this.despesasAnuais}\nLucro Anual ${this.calcularLucroAnual()}`));
+        return(console.log(`Relatório da Empresa:\nReceita Atual: R$ ${this.receitaAnual.toFixed(2)}\nDespesas Anuais: R$ ${this.despesasAnuais.toFixed(2)}\nLucro Anual R$ ${this.calcularLucroAnual().toFixed(2)}`));
     }
 }
 
